@@ -26,9 +26,6 @@ toDos.forEach ((element,i)=>{
 
 renderList()
 
-
-
-
 ///////////////// add input and button 
 
 const button =document.createElement("button");
@@ -41,19 +38,24 @@ const input =document.createElement("input");
 input.id="input"
 body.append(input)
 
-
-const addfunction =() => { 
+const addfunction =() => {   
 const newItem = input.value
+
 toDos.push(newItem)
 
 
-
-
 renderList()
-
 
 }
 
 button.addEventListener("click",addfunction)
 
 
+
+//delete
+
+const deleteListItem  =() =>{
+const deltem =list.filter(newItem =>)
+
+
+}
